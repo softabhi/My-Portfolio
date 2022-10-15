@@ -1,0 +1,34 @@
+.footer-content{
+    display: flex;
+}
+.footer-content .left, 
+.right{
+    margin: 5rem 5rem;
+    
+}
+.left .location{
+    display: flex;
+    /* padding: 2rem 0; */
+    padding-bottom: 0;
+    padding-top: 2rem;
+}
+ .mobile .mail,
+ h4{
+    /* display: flex; */
+    padding: 2rem 0 0 0;
+}
+h4 span{
+    margin-left: 30px;
+}
+.right h4{
+    padding: 2rem 0 0 0;
+}
+.right p{
+    padding: 2rem 0 0 0;    
+}
+.right .social{
+    padding: 2rem 0 0 0;
+}
+.social .icons{
+    margin-right: 20px;
+}

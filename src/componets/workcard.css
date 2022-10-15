@@ -1,0 +1,46 @@
+.workcard{
+    display: flex;
+    justify-content: space-around;
+}
+.work-content{
+    background-color: rgb(20, 12, 12);
+   width: 35rem;
+   height: 35rem;
+   margin-top: 20px;
+   /* margin-left: 10rem; */
+}
+.work-content .imgg{
+    width: 32rem;
+    height: 17rem;
+    margin-bottom: 0;
+    margin-left: 23px;
+}
+.pargra{
+    margin-top: 0;
+  
+}
+.work-content h1{
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.work-content .pargra h2{
+    color: #fff;
+    margin-top: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.work-content .pargra h3{
+    color: #fff;
+    margin-top: 0;
+    padding: 10px 0;
+    text-align: center;
+} 
+.pargra .btn{
+    margin: 30px 6rem; 
+    /* text-align: center; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    
+}
