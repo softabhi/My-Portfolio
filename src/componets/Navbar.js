@@ -8,7 +8,7 @@ function Navbar() {
   const [navbar , setNavbar] = useState(false);
 
   const scrolHandler = ()=>{
-    if(window.scrollY >= 1){
+    if(window.scrollY >= 10){
       setNavbar(true)
     }else{
       setNavbar(false)
@@ -24,7 +24,7 @@ function Navbar() {
   return (
     <div className={navbar ? "header header-bg" : "header"}>
       <Link to="/">
-        <h1>Portfolio</h1>
+        <h1>Path<span>Shala</span> </h1>
       </Link>
       <ul className={clickBtn ? "nav-menu active" :
         "nav-menu"}>
@@ -32,7 +32,7 @@ function Navbar() {
           <Link to="/" >Home</Link>
         </li>
         <li>
-          <Link to="/projects">Project</Link>
+          <Link to="/projects">Programes</Link>
         </li>
         <li>
           <Link to="/about">About</Link>

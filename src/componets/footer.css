@@ -1,5 +1,6 @@
 .footer-content{
     display: flex;
+    justify-content: space-around;
 }
 .footer-content .left, 
 .right{
@@ -20,8 +21,8 @@
 h4 span{
     margin-left: 30px;
 }
-.right h4{
-    padding: 2rem 0 0 0;
+.right h3{
+    /* padding: 5rem 0 0 0; */
 }
 .right p{
     padding: 2rem 0 0 0;    
@@ -31,4 +32,10 @@ h4 span{
 }
 .social .icons{
     margin-right: 20px;
+}
+.mid-footer{
+    padding: 5rem 0 0 0;
+}
+.sing-link{
+    margin: 2rem 0;
 }
