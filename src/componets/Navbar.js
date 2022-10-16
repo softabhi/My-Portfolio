@@ -5,19 +5,19 @@ import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa"
 function Navbar() {
   const [clickBtn, setClickBtn] = useState(false);
-  const [navbar , setNavbar] = useState(false);
+  const [navbar, setNavbar] = useState(false);
 
-  const scrolHandler = ()=>{
-    if(window.scrollY >= 10){
+  const scrolHandler = () => {
+    if (window.scrollY >= 10) {
       setNavbar(true)
-    }else{
+    } else {
       setNavbar(false)
     }
-    
+
   }
 
-  window.addEventListener("scroll" ,scrolHandler);
-  
+  window.addEventListener("scroll", scrolHandler);
+
   const handlerClick = () => {
     setClickBtn(!clickBtn);
   }
