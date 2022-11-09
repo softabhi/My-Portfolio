@@ -1,11 +1,16 @@
 .mid{
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 35px;
 }
-.mid-content{
+.mid-conte{
     /* margin: 20px 0 0 20px; */
     position: relative;
+}
+.mid-conte:hover{
+    /* border: 2px red solid; */
+    box-shadow: 5px 5px 5px black;
+    /* z-index: 999; */
 }
 .pic{
     width: 25rem;
@@ -21,9 +26,16 @@
 }
 .text{
     position: absolute;
-    top: 30px;
+    top: 5rem;
     left: 50px;
 }
 .text h2{
     color: red;
+    font-size: 3rem;
+}
+.text h2:hover{
+    color: darkorange;
+}
+.text h2 span{
+    color: rgb(19, 4, 5);
 }

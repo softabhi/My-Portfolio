@@ -1,7 +1,7 @@
 import "./workcard.css"
 import React from 'react'
-import image from '../assests/web1.jpg'
-import image1 from '../assests/img2.jpg'
+import image from '../assests/pi6.jpg'
+import image1 from '../assests/pi4.jpeg'
 import { NavLink } from "react-router-dom"
 
 const WorkCard = () => {

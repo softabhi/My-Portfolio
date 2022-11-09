@@ -7,9 +7,9 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="footer-content">
-           
+
                 <div className="left">
-                <div className="mid-content">
+                    <div className="mid-content">
                         <h3>Register Office</h3>
                     </div>
                     <div className="location">
@@ -34,7 +34,7 @@ const Footer = () => {
 
                     </div>
                 </div>
-                <div className="mid-footer">
+                <div className="left">
                     <div className="mid-content">
                         <h3>Importains Link</h3>
                     </div>
@@ -45,21 +45,23 @@ const Footer = () => {
                             <li className="sing-link">About Modern Technologies</li>
                             <li className="sing-link">Placements</li>
                         </ul>
-                        
+
                     </div>
                 </div>
-                <div className="right">
+                <div className="left">
                     <h3>About The Company</h3>
                     <p>
                         We are educational platform, that is provide quelity,<br />
                         current demandeble education that make students for <br />
                         industries expert with minimum fees.
-                    </p>
+                    </p> 
+                    <br />
                     <p>
                         I spent sometime understanding the difference between <br />
                         positioning and relative positioning and element.
 
                     </p>
+                    <br />
                     <div className="social">
                         <FaFacebook size={30} className="icons" />
                         <FaLinkedin size={30} className="icons" />

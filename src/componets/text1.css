@@ -1,0 +1,14 @@
+.textImg{
+    position: relative;
+    margin: 40px 0; 
+}
+#imgg{
+    width: 100%;
+    height: 40vh;
+}
+.textCont{
+    position: absolute;
+    top: 7rem;
+    left: 25rem;
+    font-size: 35px;
+}

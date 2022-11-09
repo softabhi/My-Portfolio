@@ -5,24 +5,25 @@ import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa"
 function Navbar() {
   const [clickBtn, setClickBtn] = useState(false);
-  const [navbar, setNavbar] = useState(false);
+  // const [navbar, setNavbar] = useState(false);
 
-  const scrolHandler = () => {
-    if (window.scrollY >= 10) {
-      setNavbar(true)
-    } else {
-      setNavbar(false)
-    }
+  // const scrolHandler = () => {
+  //   if (window.scrollY >= 1) {
+  //     setNavbar(true)
+  //   } else {
+  //     setNavbar(false)
+  //   }
 
-  }
+  // }
 
-  window.addEventListener("scroll", scrolHandler);
+  // window.addEventListener("scroll", scrolHandler);
 
   const handlerClick = () => {
     setClickBtn(!clickBtn);
   }
   return (
-    <div className={navbar ? "header header-bg" : "header"}>
+    // <div className={navbar ? "header header-bg" : "header"}>
+    <div className= "header">
       <Link to="/">
         <h1>Path<span>Shala</span> </h1>
       </Link>
